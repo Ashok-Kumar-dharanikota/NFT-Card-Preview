@@ -1,0 +1,128 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 15px;
+}
+
+#nft-card {
+    width: auto;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.nft-card-img-hover {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('./images/image-equilibrium.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.3s;
+    overflow: hidden;
+}
+
+.nft-card-img-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.nft-card-img-hover:hover .nft-card-img-view {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nft-card-img-hover:hover::before  {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.nft-card-img-view {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s; 
+}
+
+
+.nft-card-img-view:hover {
+    visibility: visible;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+.desc {
+    width: 250px;
+    color: hsla(215, 52%, 70%, 0.662);
+}
+
+.nft-details {
+    width: 250px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nft-d-1 {
+    display: flex;
+}
+
+.nft-d-1 img {
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.nft-d-2 {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-d-2 img {
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: rgba(255, 255, 255, 0.166);
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: white;
+}
+
