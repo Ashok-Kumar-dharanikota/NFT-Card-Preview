@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [https://github.com/Ashok-Kumar-dharanikota/rating-component](https://github.com/Ashok-Kumar-dharanikota/rating-component)
-- Live Site URL: [https://ashok-kumar-dharanikota.github.io/rating-component/](https://ashok-kumar-dharanikota.github.io/rating-component/) -->
+- Solution URL: [https://github.com/Ashok-Kumar-dharanikota/NFT-Card-Preview](https://github.com/Ashok-Kumar-dharanikota/NFT-Card-Preview)
+- Live Site URL: [https://ashok-kumar-dharanikota.github.io/NFT-Card-Preview/](https://ashok-kumar-dharanikota.github.io/NFT-Card-Preview/)
 
 ## My process
 
